@@ -33,13 +33,13 @@ int avg(int x, int y)
 char grade(int x)
 {
     if (x >= 90)
-        printf("A");
+        return 'A';
     else if (x >= 80)
-        printf("B");
+        return 'B';
     else if (x >=70)
-        printf("C");
+        return 'C';
     else if (x >= 60)
-        printf("D");
+        return 'D';
     else
-        printf("F");
+        return 'F';
 }
